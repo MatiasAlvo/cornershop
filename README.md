@@ -9,3 +9,9 @@ Important scripts:
 Features: reads the original data, process the data, adds new features and dumps new files for training, validation and test sets, and separate files for the data with null values for total_minutes
 
 Regression_model, DNN_model, random_forest_model, xgboost_model: jupyter notebook python scripts, which create and train the respective models and make predictions for the desired data.  It is important to note that whenever we try to optimize on the hyperparameters, the process make time a lot of time to complete.  Moreover, training neural networks in the DNN_model file is also really slow.  The code is explained step by step to clarify the methodology used.
+
+data: original data and dumps of the new data created in the Features script
+
+Predictions: predictions made for the data with null values on total_minutes by the different models.
+
+models_dump: dump of the different trained models
